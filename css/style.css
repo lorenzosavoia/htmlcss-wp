@@ -1,0 +1,83 @@
+*{
+    padding 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.contenitore{
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+
+.intestazione{
+    height: 5em;
+    background-color: white;
+    margin-top: 1em;
+}
+
+.logo{
+    height: 100%;
+    border-right: solid rgb(211 211 211 / 40%);
+    padding-right: 2em;
+
+
+}
+
+
+
+.corpo-centrale{
+    height: 30em;
+    margin: 2em 0;
+    background-color: yellow;
+    background-image: url(..);
+}
+
+.intestazione-2{
+    height: 10em;
+    background-color: lightblue;
+}
+
+.colonna-sinistra,
+.colonna-centrale,
+.colonna-destra{
+    height: 30em;
+    float: left;
+    
+    
+}
+.colonna-destra,
+.colonna-sinistra{
+    background-color: lightblue;
+    width: 25%;
+    border-bottom: 1em solid blue;
+    border-top: 1em solid blue;
+
+}
+
+.colonna-centrale{
+    background-color: lightblue;
+    width: 50%;
+    border: 1em solid blue;
+    
+    
+}
+
+
+
+.fine-pagina{
+    height: 3em;
+    background-color: cadetblue;
+    margin: 1em 0;
+}
