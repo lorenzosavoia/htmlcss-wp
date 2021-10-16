@@ -41,12 +41,13 @@ html{
     height: 30em;
     margin: 2em 0;
     background-color: yellow;
-    background-image: url(..);
+    background-image: url(../img/banner.jpg);
 }
 
 .intestazione-2{
     height: 10em;
     background-color: lightblue;
+    
 }
 
 .colonna-sinistra,
