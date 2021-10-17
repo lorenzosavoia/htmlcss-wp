@@ -6,12 +6,17 @@
 
 html{
     font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix::after{
     content: '';
     display: table;
     clear: both;
+}
+
+.grigio{
+    color: gray;
 }
 
 .contenitore{
@@ -34,43 +39,79 @@ html{
 
 
 }
+.link{
+    display: block;
+    margin: 2em 0;
+
+    
+
+}
+header a {
+    color: rgb(212 212 212);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.testo-corpo{
+    
+    width: 40%;
+    color: rgb(72 72 72);
+    position: absolute;
+    bottom: 4em;
+    padding-left: 3em;
+}
+
 
 
 
 .corpo-centrale{
-    height: 30em;
-    margin: 2em 0;
-    background-color: yellow;
+  height: 30em;
+    margin: 6em 0;
     background-image: url(../img/banner.jpg);
+    filter: brightness(70%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5em;
+    
 }
+
+
 
 .intestazione-2{
     height: 10em;
-    background-color: lightblue;
+    
+    padding: 3em 0;
     
 }
 
 .colonna-sinistra,
 .colonna-centrale,
 .colonna-destra{
-    height: 30em;
+    
     float: left;
     
     
+    
+}
+
+.immagine-centrale{
+    width: 40%;
 }
 .colonna-destra,
 .colonna-sinistra{
-    background-color: lightblue;
+
     width: 25%;
-    border-bottom: 1em solid blue;
-    border-top: 1em solid blue;
+    
 
 }
 
 .colonna-centrale{
-    background-color: lightblue;
-    width: 50%;
-    border: 1em solid blue;
+    
+    width: 48%;
+    
+    margin: 0 1%;
     
     
 }
@@ -79,6 +120,54 @@ html{
 
 .fine-pagina{
     height: 3em;
-    background-color: cadetblue;
+    
     margin: 1em 0;
+}
+
+.immagine-left{
+    
+    background-image: url(../img/img-1.jpg);
+    filter: brightness(70%);
+    width: 100%;
+    height: 17em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5em;
+}
+.immagine-center{
+    
+    background-image: url(../img/banner-2.jpg);
+    filter: brightness(70%);
+    
+    width: 100%;
+    height: 17em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5em;
+}
+.immagine-right{
+    
+    background-image: url(../img/img-3.jpg);
+    filter: brightness(70%);
+    width: 100%;
+    height: 17em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5em;
+}
+
+.titolo{
+    color: rgb(149 149 149);
+    margin: 1em 0;
+}
+.titolo-footer{
+    color: rgb(149 149 149);
+    margin: 1em 0;
+    text-align: center;
+}
+#cuore{
+    color: red;
 }
